@@ -17,6 +17,7 @@ namespace CopaHAS.DTOs
         public string TimeVisitante { get; set; } = null!;
         public int GolsVisitante { get; set; }
         public int GolsDecisaoPenaltisVisitante { get; set; }
+	//comentario
         
     }
 }

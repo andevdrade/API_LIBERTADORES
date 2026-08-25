@@ -57,7 +57,7 @@ namespace ApiLibertadoresHAS.Controllers
             SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }
-
+        [AllowAnonymous]
         [HttpPost("Register")]
         public async Task<IActionResult> RegistrarUsuario(Usuario user)
         {
